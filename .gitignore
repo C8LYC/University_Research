@@ -1,0 +1,17 @@
+#Library
+Guitar_Teaching/Library/
+
+#Logs
+Guitar_Teaching/Logs/
+
+#user setting
+Guitar_Teaching/UserSettings/
+Guitar_Teaching/.vs/
+Guitar_Teaching/Temp/
+
+#No use
+Guitar_Teaching/.plastic/
+
+# csproj
+Guitar_Teaching/*.csproj
+
