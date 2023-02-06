@@ -11,10 +11,4 @@ You can dowwnload git (*needed*) and TortoiseGit (*Optional, just graphical user
 2. (if you download zip) unzip the file and open the "DollsJourney_ML" folder in unity with version 2021.3.5f1.
 3. After open unity, find Project -> Asset -> scene -> SceneML , then you can see training environment.
 4. run project
-## for ML package download
-1. You can refer to https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md
-2. You just need to do the step "Install the mlagents Python package" .
-3. **Very important ! After Installing PyTorch, next line is very important ! ( Note that on Windows, you may also need Microsoft's Visual C++ Redistributable if you don't have it already. ) Please make sure you had downloaded this !**
-2. Skip all "Optional" and "Advanced" step !!
-3. Skip "Install the com.unity.ml-agents Unity package" because this package has in the project.
-4. Python version 3.9.15 is recommended.
+
