@@ -386,9 +386,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Script/GM/ChangePlaySceneController.cs"
+"Assets/Script/GM/ChangeSceneController.cs"
+"Assets/Script/GM/DataMemory.cs"
 "Assets/Script/GM/GM.cs"
+"Assets/Script/GM/GoOverScene.cs"
 "Assets/Script/GM/StartMenuGM.cs"
+"Assets/Script/GM/StartSceneGM.cs"
 "Assets/Script/UI/ButtonChangeScene.cs"
+"Assets/Script/UI/UIEventManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

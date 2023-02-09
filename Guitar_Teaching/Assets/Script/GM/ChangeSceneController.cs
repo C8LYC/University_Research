@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
+/// <summary>
+/// Control loading scene ProcessBar and change to target scene
+/// </summary>
 public class ChangeSceneController : MonoBehaviour
 {
     AsyncOperation NewScene;

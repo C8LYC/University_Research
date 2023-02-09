@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GoOverScene : MonoBehaviour
 {
-    public DataMemory dataMemory;
+    DataMemory dataMemory;
     bool NeedSet = false;
     int HasChange = 0;
 
@@ -42,12 +42,12 @@ public class GoOverScene : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("OnSceneLoaded: " + scene.name);
+        Debug.Log("OnSceneLoaded : " + scene.name);
         Time.timeScale = 1f;
         NeedSet = true;
         if(HasChange == 0) // Has Change Scene
         {
-            /*
+            
             #region Destroy New DataMemory obj
 
             DataMemory[] settings = FindObjectsOfType<DataMemory>();
@@ -62,7 +62,7 @@ public class GoOverScene : MonoBehaviour
             }
 
             #endregion
-            */
+            
 
             HasChange += 1;
         }

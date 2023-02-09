@@ -56,10 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\GM\ChangeSceneController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Script\UI\ButtonChangeScene.cs" />
-    <Compile Include="Assets\Script\GM\GM.cs" />
     <Compile Include="Assets\Script\GM\StartMenuGM.cs" />
+    <Compile Include="Assets\Script\GM\GM.cs" />
+    <Compile Include="Assets\Script\UI\ButtonChangeScene.cs" />
+    <Compile Include="Assets\Script\GM\ChangePlaySceneController.cs" />
+    <Compile Include="Assets\Script\GM\DataMemory.cs" />
+    <Compile Include="Assets\Script\GM\StartSceneGM.cs" />
+    <Compile Include="Assets\Script\GM\GoOverScene.cs" />
+    <Compile Include="Assets\Script\UI\UIEventManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
