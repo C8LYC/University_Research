@@ -23,7 +23,16 @@ public class GoOverScene : MonoBehaviour
 
     private void Start()
     {
-        dataMemory = GetComponent<DataMemory>();
+        
+        if(!GetComponent<DataMemory>())
+        {
+            Debug.Log("No DataMemory");
+            Destroy(gameObject);
+        }
+        else
+        {
+            dataMemory = GetComponent<DataMemory>();
+        }
     }
 
     private void Update()
@@ -50,14 +59,16 @@ public class GoOverScene : MonoBehaviour
             
             #region Destroy New DataMemory obj
 
-            DataMemory[] settings = FindObjectsOfType<DataMemory>();
-            
-            if(settings.Length > 1)//have other setting
+            DataMemory[] DataMemoryobjs = FindObjectsOfType<DataMemory>();
+            //GameObject[] DataMemoryobjs = GameObject.Find
+
+            if (DataMemoryobjs.Length > 1)//have other DataMemory
             {
-                foreach(var set in settings)
+                Debug.Log("Over scene delete");
+                foreach(var obj in DataMemoryobjs)
                 {
-                    if(set.gameObject != gameObject)
-                        Destroy(set, 0.01f);
+                    if(obj.gameObject != gameObject)
+                        Destroy(obj.gameObject, 0.01f);
                 }              
             }
 
