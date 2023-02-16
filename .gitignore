@@ -15,3 +15,5 @@ Guitar_Teaching/.plastic/
 # csproj
 Guitar_Teaching/*.csproj
 
+# Plugin Zip
+PluginZip/
