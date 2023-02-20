@@ -11,8 +11,10 @@ import music21 as m21
 sys.path.append('..')
 import libfmp.c1
 
-fn = os.path.join('twinkle_little_star.xml')
-# route = "C:\Users\alexl\Documents\github\University_Research\musicxml_test\twinkle_little_star.xml"
+music_name = "twinkle_little_star.xml"
+
+ABS_PATH = "C:\\Users\\alexl\\Documents\\github\\University_Research\\musicxml_test\\"
+fn = ABS_PATH + music_name
 
 with open(fn, 'r') as stream:
     xml_str = stream.read()
