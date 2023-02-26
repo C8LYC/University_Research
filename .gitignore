@@ -18,3 +18,12 @@ Guitar_Teaching/*.csproj
 # Plugin Zip
 PluginZip/
 Guitar_Teaching/Packages/
+
+# Sample Asset
+Guitar_Teaching/Assets/SamplesResources/
+Guitar_Teaching/Assets/SamplesResources.meta
+
+Guitar_Teaching/ProjectSettings/ProjectVersion.txt.meta
+
+Guitar_Teaching/Assets/Common.meta
+Guitar_Teaching/Assets/Common/
