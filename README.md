@@ -1,4 +1,5 @@
 # unity_original
+
 ## recommend using git to pull, push, and other version control commed.
 You can dowwnload git (*needed*) and TortoiseGit (*Optional, just graphical user interface (GUI) tool for git*) and all git setting has in the project, so you don't need to set the project. That is , you can just do "commit","pull" and "push" at most of time. **Please make sure that you are not changing the same part with your partner because we may not have too much time to do complex merge.**
 
@@ -11,4 +12,13 @@ You can dowwnload git (*needed*) and TortoiseGit (*Optional, just graphical user
 2. (if you download zip) unzip the file and open the "DollsJourney_ML" folder in unity with version 2021.3.5f1.
 3. After open unity, find Project -> Asset -> scene -> SceneML , then you can see training environment.
 4. run project
+## Note For This Project
+1. Remember to download new plugin when there are new plugin in the project. (See 'Plugin Installation' and 'Plugin List')
+2. If there are some error after you pull from GitHub, Please Check 'Plugin List' whether you need to download new Plugin.
+3. Remember to add all scene to built setting before testing switching scene or export application. 
+## Plugin Installation
+See https://dollroll.wordpress.com/2023/02/27/unity%e9%9a%a8%e6%89%8b%e5%b0%8f%e6%9c%ad-%e5%a5%97%e4%bb%b6/
 
+## Plugin List
+1. mideapipe (2/27)
+2. vuforia (2/27,need to add vuforia engine package from Asset Store first)
