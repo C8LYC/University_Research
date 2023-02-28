@@ -27,3 +27,5 @@ Guitar_Teaching/ProjectSettings/ProjectVersion.txt.meta
 
 Guitar_Teaching/Assets/Common.meta
 Guitar_Teaching/Assets/Common/
+# package too big zip
+Guitar_Teaching/Editor/Migration/com.ptc.vuforia.engine-10.13.3.tgz
