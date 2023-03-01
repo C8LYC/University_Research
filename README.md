@@ -5,7 +5,7 @@ You can dowwnload git (*needed*) and TortoiseGit (*Optional, just graphical user
 
 ## reminder for unity install
 1. download unity hub (you can google how to download unity hub or look this reference : https://dollroll.wordpress.com/2021/09/23/unity-%e5%9f%ba%e6%9c%ac%e6%95%99%e5%ad%b8-1-%e5%ae%89%e8%a3%9d%e8%88%87%e5%b0%88%e6%a1%88%e5%89%b5%e5%bb%ba/)
-2. download unity 2021.3.5f1 in unity hub
+2. download unity 2021.3.4f1 in unity hub
 3. download project zip or clone project folder to your local
 ## for first download
 1. download project zip or clone project folder to your local
@@ -20,5 +20,5 @@ You can dowwnload git (*needed*) and TortoiseGit (*Optional, just graphical user
 See https://dollroll.wordpress.com/2023/02/27/unity%e9%9a%a8%e6%89%8b%e5%b0%8f%e6%9c%ad-%e5%a5%97%e4%bb%b6/
 
 ## Plugin List
-1. mideapipe (2/27)
-2. vuforia (2/27,need to add vuforia engine package from Asset Store first)
+1. mideapipe (2/27,it should be in remote project. If you need some reference , see https://github.com/homuler/MediaPipeUnityPlugin)
+2. vuforia (2/27,need to add vuforia engine package from Asset Store first , then install the plugin)
