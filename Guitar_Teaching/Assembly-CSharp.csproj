@@ -87,6 +87,7 @@
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Hand Tracking\HandTrackingConfig.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Iris Tracking\IrisTrackingGraph.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Pose Tracking\PoseTrackingSolution.cs" />
+    <Compile Include="Assets\Script\CamMirror.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\UI\Scripts\Modal.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\MemoizedLogger.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\ImageSource\VideoSource.cs" />
