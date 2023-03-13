@@ -14,7 +14,9 @@ You can dowwnload git (*needed*) and TortoiseGit (*Optional, just graphical user
 4. run project
 ## Note For This Project
 1. Remember to download new plugin when there are new plugin in the project. (See 'Plugin Installation' and 'Plugin List')
-2. If there are some error after you pull from GitHub, Please Check 'Plugin List' whether you need to download new Plugin.
+2. If there are some error after you pull from GitHub, 
+	1. Please Check 'Plugin List' whether you need to download new Plugin.
+	2. Go to \Guitar_Teaching\Packages\com.github.homuler.mediapipe.part01.rar and unzip it. (delete "com.github.homuler.mediapipe")
 3. Remember to add all scene to built setting before testing switching scene or export application. 
 ## Plugin Installation
 See https://dollroll.wordpress.com/2023/02/27/unity%e9%9a%a8%e6%89%8b%e5%b0%8f%e6%9c%ad-%e5%a5%97%e4%bb%b6/
