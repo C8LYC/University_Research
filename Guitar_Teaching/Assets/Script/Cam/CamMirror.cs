@@ -7,7 +7,6 @@ using UnityEngine;
 /// </summary>
 public class CamMirror : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         Camera cam = GetComponent<Camera>();
