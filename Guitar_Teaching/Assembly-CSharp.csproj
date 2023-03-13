@@ -146,7 +146,6 @@
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Iris Tracking\iris_tracking_gpu.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Face Detection\face_detection_cpu.txt" />
-    <None Include="Assets\StreamingAssets\object_detection_oidv4_labelmap.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Pose Tracking\pose_tracking_cpu.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Hand Tracking\hand_tracking_gpu.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Selfie Segmentation\selfie_segmentation_cpu.txt" />
@@ -193,11 +192,9 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Box Tracking\box_tracking_opengles.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Holistic\holistic_opengles.txt" />
-    <None Include="Assets\StreamingAssets\handedness.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Iris Tracking\iris_tracking_cpu.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Objectron\objectron_opengles.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\StreamingAssets\ssdlite_object_detection_labelmap.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\MediaPipeUnity\Samples\Scenes\Holistic\holistic_gpu.txt" />
